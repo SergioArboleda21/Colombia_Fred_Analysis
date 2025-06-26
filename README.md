@@ -1,6 +1,15 @@
 # Colombia_Fred_Analysis
+This project provides a comprehensive macroeconomic analysis of the Colombian economy from 2009 onwards, using public data from the Federal Reserve Economic Data (FRED) database. 
+The core objective is to analyze how external factors, such as trade and currency fluctuations, alongside internal indicators like inflation and interest rates, have collectively shaped Colombia's GDP and economic trajectory. The analysis was conducted with two primary stakeholders in mind: economic policymakers and foreign investors. 
 
-This repository contains a deep-dive analysis into the key drivers of the Colombian economy, aimed at providing actionable insights for economic policymakers and foreign investors.
-Goal: To model the Colombian economy by analyzing how its GDP is influenced by trade, currency fluctuations, inflation, and interest rates.
-Methodology: Seven distinct economic indicators from FRED with mismatched frequencies were cleaned and resampled into a uniform quarterly dataset. The analysis included creating a correlation matrix, building a multiple regression model (which explained 79.2% of GDP variance), and using a Granger causality test to check for predictive relationships.
-Key Finding: The analysis identifies exports as the primary engine of Colombia's economic growth, highlighting significant volatility. It also uncovers a strong feedback loop where a weakening peso directly correlates with higher inflation and housing costs. Finally, it confirms that monetary policy (interest rates) has a significant but delayed impact on inflation, typically taking 9-12 months.
+
+Key Features:
+
+Data Transformation: Details the process of cleaning and preparing the data, addressing challenges like mismatched frequencies and varying time periods by standardizing the data to a quarterly frequency. 
+Trend and Correlation Analysis: Visualizes long-term economic trends and uses a correlation matrix to uncover relationships between key variables. A central finding is the strong link between exports and GDP, as well as a tight cluster between inflation, housing prices, and the USD/COP exchange rate. 
+Advanced Statistical Modeling:
+Regression Analysis: Measures the specific impact of exports, interest rates, and the exchange rate on GDP, finding that these factors explain 79.2% of GDP changes. 
+Granger Causality Test: Examines the predictive relationship between interest rates and inflation, revealing a significant predictive power with a 9 to 12-month lag. 
+Actionable Insights & Recommendations: The project concludes with a "Share" and "Act" phase, translating the analytical findings into strategic recommendations for both policymakers and foreign investors. This includes suggestions for economic diversification, managing currency risk, and implementing long-term monetary policy. 
+
+This repository serves as a complete case study in data analysis, from defining the problem and preparing the data to advanced modeling and delivering actionable recommendations.
